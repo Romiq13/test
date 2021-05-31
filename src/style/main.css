@@ -1,0 +1,31 @@
+.horizontal {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: darkseagreen;
+}
+
+
+.element {
+    background-color: black;
+    margin-right: 4%;
+    margin-left: 5%;
+    height: 300px;
+    border: 0px;
+    border-color: darkseagreen;
+    border-radius: 30px;
+    flex: 1;
+    text-align: center;
+    padding-top: 1%;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: ghostwhite;
+    color: darkseagreen;
+}
+a:hover img {border: 3px solid darkseagreen;
+
